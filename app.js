@@ -1,10 +1,10 @@
 var app = angular.module('myapp', []);
 
-app.directive('donut',
+app.directive('imgLoader',
 		function() {
 			return {
 				restrict : 'E',
-				template : '<a href="#" style="position:absolute;top:150px"> Click Here </a>',
+				template : '<a href="#" class="tooltip">Click here <span class="tooltip-holder"><span id="cross-icon"><img src="cross.png"></img></span><img class="callout" src="callout.gif"><img src="image.png"></span></a>',
 				controller : function($scope) {
 					console.log("inside controller");
 				},
