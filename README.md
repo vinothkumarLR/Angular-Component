@@ -1,1 +1,2 @@
-# Angular-Component
+# Angular-javaScript-MVC
+Study on google framework
