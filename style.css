@@ -1,0 +1,28 @@
+a.tooltip1 {outline:none; position:absolute; top:150px}
+         a.tooltip1 strong {line-height:30px;}
+         a.tooltip1:hover {text-decoration:none;} 
+         a.tooltip1 span.tooltip-holder {
+         z-index:10;display:none; padding:14px 20px;
+         margin-top:-30px; margin-left:28px;
+         width:300px; line-height:16px; opacity: 1 !important;
+         }
+         a.tooltip1 span.tooltip-holder{
+         display:inline-block; position:absolute; color:#111;
+         border:1px solid #DCA; background:#fffAF0;
+         height: auto; width:233px;
+         left: 58px;
+         top: -26px;
+         display: none;
+         }
+         .callout {
+         z-index:20;position:absolute;top:54px;border:0;left:-12px;
+         }
+         a.tooltip1 span.tooltip-holder
+         {
+         border-radius:4px;
+         box-shadow: 5px 5px 8px #CCC;
+         }
+         #cross-icon {
+         display: inline-block;
+         float:right;
+         }
