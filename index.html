@@ -1,54 +1,19 @@
 <!doctype html>
 <html ng-app="myapp">
-<head>
-
-<style>
-
-a.tooltip {outline:none; position:absolute; top:150px}
-a.tooltip strong {line-height:30px;}
-a.tooltip:hover {text-decoration:none;} 
-a.tooltip span.tooltip-holder {
-    z-index:10;display:none; padding:14px 20px;
-    margin-top:-30px; margin-left:28px;
-    width:300px; line-height:16px;
-}
-a.tooltip span.tooltip-holder{
-    display:inline-block; position:absolute; color:#111;
-    border:1px solid #DCA; background:#fffAF0;
-	height: auto; width:233px;
-	left: 58px;
-    top: -26px;
-	display: none;
-	}
-.callout {
-z-index:20;position:absolute;top:54px;border:0;left:-12px;
-}
-    
-
-a.tooltip span.tooltip-holder
-{
-    border-radius:4px;
-    box-shadow: 5px 5px 8px #CCC;
-}
-
-#cross-icon {
-display: inline-block;
-float:right;
-
-}
-</style>
-
-</style>
-
-</head>
-<body>
-	<script src="angular-1.3.16.js"></script>
-      <script src="jquery-1.11.js"></script>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <link rel="stylesheet" href="bootstrap.css">
+      <link rel="stylesheet" href="style.css">
+      <script src="angular-1.3.16.js"></script>
       <script src="app.js"></script>
-	
-	<img-loader/>
-	
-
-</body>
+      <script src="jquery-1.11.js"></script> 
+      <script src="bootstrap.js"></script>    
+      <img-loader/>
+   </body>
 </html>
+
+
 
